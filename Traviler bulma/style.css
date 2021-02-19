@@ -1,0 +1,13 @@
+.navbar-item  {
+    border-radius: 4px;
+    margin: 3px;
+}
+
+.field .control input{
+    width: 50%;
+    margin: 1rem auto;
+}
+
+input{
+    background: none;
+}

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Traviler</title>
+</head>
+<body>
+
+
+    <!-- navbar-->
+    <nav class="navbar is-primary">
+        <div class="container">
+            <div class="navbar-brand is-size-3 px-6 pt-1">
+                <h1 class="logo">Traviler</h1>
+
+                <a href="#" class="navbar-burger is-white" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+            <div class="navbar-menu navbar-end px-6" id="nav-links">
+                <div class="navbar-end px-4 py-2">
+                    <a class="navbar-item is-active">Home</a>
+                    <a class="navbar-item">Search</a>
+                    <a class="navbar-item">Popular Places</a>
+                    <a class="navbar-item">Gallery</a>
+                    <a class="navbar-item">Content</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner image-->
+    <figure class="image  is-2by1">
+        <img src="imgs/resort1.jpg" alt="">
+    </figure>
+
+    <!-- search box-->
+    <section class="section has-background-primary-dark">
+        <div class="has-text-centered">
+            <h1 class="is-size-2 title has-text-white">Search Destinations</h1>
+        </div>
+                <div class="field container has-text-centered">
+                    <div class="control">
+                        <input class="input is-medium is-primary has-width-200px" type="text" placeholder="Enter a place you went to Visit...">
+                    </div>
+                </div>
+    </section>
+
+    <!-- cards -->
+    <section class="section is-hidden-mobile">
+        <div class="container">
+            <div class="columns mt-5 is-8 is-variable is-centered">
+                <div class="column is-4-tablet is-4-desktop">
+                    <div class="card">
+                        <div class="card-image is-size-1 has-text-centered px-6 py-3">
+                            <i class="fas fa-map-marker-alt has-text-primary"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="has-text-centered">
+                                <h1 class="title is-size-5">Pick Where</h1>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, tempore?</p>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <a href="#" class="has-text-grey">View</a>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column is-4-tablet is-4-desktop">
+                    <div class="card">
+                        <div class="card-image is-size-1 has-text-centered px-6 py-3">
+                            <i class="fas fa-store-alt has-text-primary"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="has-text-centered">
+                                <h1 class="title is-size-5">Travel Shop</h1>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus?</p>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <a href="#" class="has-text-grey">View</a>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column is-4-tablet is-4-desktop">
+                    <div class="card">
+                        <div class="card-image is-size-1 has-text-centered px-6 py-3">
+                            <i class="fas fa-plane has-text-primary" style="transform: rotate(-90deg);"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="has-text-centered">
+                                <h1 class="title is-size-5">Fly Cheap</h1>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, tempore?</p>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <a href="#" class="has-text-grey">View</a>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- places cards -->
+    <section class="section">
+        <div class="container">
+            <div class="columns mt-5 is-8 is-variable is-centered">
+                <div class="column is-4-tablet is-4-desktop px-2">
+                    <div class="card">
+                        <div class="card-image is-size-1 has-text-centered ">
+                            <img src="imgs/resort1.jpg" alt="">
+                        </div>
+                        <div class="card-content pt-1">
+                            <h1 class="title is-size-5">Mesico</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum ea deserunt officia, dicta sint perferendis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4-tablet is-4-desktop px-2">
+                    <div class="card">
+                        <div class="card-image is-size-1 has-text-centered">
+                            <img src="imgs/resort2.jpg" alt="">
+                        </div>
+                        <div class="card-content pt-1">
+                            <h1 class="title is-size-5">The Bahamas</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum ea deserunt officia, dicta sint perferendis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4-tablet is-4-desktop px-2">
+                    <div class="card">
+                        <div class="card-image is-size-1 has-text-centered ">
+                            <img src="imgs/resort3.jpg" alt="">
+                        </div>
+                        <div class="card-content pt-1">
+                            <h1 class="title is-size-5">scotia</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum ea deserunt officia, dicta sint perferendis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section has-background-primary-dark">
+        <div class="has-text-centered">
+            <h1 class="is-size-2 title has-text-white">
+                Follow Traviler
+            </h1>
+            <p class="has-text-light">
+                Follow us on social media for special offers
+            </p>
+        </div>
+        <div class="content has-text-centered has-text-white">
+            <!-- icons Problem ???????-->
+            <a href=""> <i class="has-text-white fas fa-facebook-f"></i> </a>
+        </div>
+    </section>
+
+
+    <!-- img Gallery-->
+    <section class="section">
+        <div class="container is-small">
+            <div class="has-text-centered mb-3">
+                <h1><strong class="is-size-3 has-text-primary">Photo</strong><strong class="is-size-3"> Gallery</strong></h1>
+            </div>
+            <div class="columns is-variable is-multiline is-4">
+                <div class="column is-3-desktop is-4-tablet">
+                    <img src="imgs/gal-1.jpg" width="250px" height="150px" alt="">
+                </div>
+                <div class="column is-3-desktop is-4-tablet">
+                    <img src="imgs/gal-2.jpg" width="250px" height="150px" alt="">
+                </div>
+                <div class="column is-3-desktop is-4-tablet">
+                    <img src="imgs/gal-3.jpg" width="250px" height="150px" alt="">
+                </div>
+                <div class="column is-3-desktop is-4-tablet">
+                    <img src="imgs/gal-4.jpg" width="250px" height="150px" alt="">
+                </div>
+                <div class="column is-3-desktop is-4-tablet">
+                    <img src="imgs/gal-5.jpg" width="250px" height="150px" alt="">
+                </div>
+                <div class="column is-3-desktop is-4-tablet">
+                    <img src="imgs/gal-6.jpg" width="250px" height="150px" alt="">
+                </div>
+                <div class="column is-3-desktop is-4-tablet">
+                    <img src="imgs/gal-7.jpg" width="250px" height="150px" alt="">
+                </div>
+                <div class="column is-3-desktop is-4-tablet">
+                    <img src="imgs/gal-8.jpg" width="250px" height="150px" alt="">
+                </div>
+                <div class="column is-3-desktop is-4-tablet">
+                    <img src="imgs/gal-13.jpg" width="250px" height="150px" alt="">
+                </div>
+                <div class="column is-3-desktop is-4-tablet">
+                    <img src="imgs/gal-10.jpg" width="250px" height="150px" alt="">
+                </div>
+                <div class="column is-3-desktop is-4-tablet">
+                    <img src="imgs/gal-11.jpg" width="250px" height="150px" alt="">
+                </div>
+                <div class="column is-3-desktop is-4-tablet">
+                    <img src="imgs/gal-12.jpg" width="250px" height="150px" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container is-small pr-6 mb-6 ">
+        <div class="columns is-variable is-2 is-multiline">
+            <!-- contant box-->
+            <div class="column is-6-desktop is-6-tablet">
+                <div class="notification is-primary">
+                    <div class="has-text-centered">
+                        <div class="content py-5 px-5">
+                            <i class="is-size-3 fas fa-envelope"></i>
+                            <h1 class="is-size-4">Contact Us For Booking</h1>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Illo praesentium fugit tempore hic enim possimus molestias
+                                quisquam impedit corrupti eveniet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Location panel -->
+                <nav>
+                    <div class="panel $panel-icon-color has-shadow">
+                        <div class="panel-heading">
+                            <p class="is-size-3">Location</p>
+                        </div>
+                    </div>
+                    <p class="panel-block">Travelville Agency</p>
+                    <p class="panel-block">555 Beack Rd, Suite 33</p>
+                    <p class="panel-block">Miami, FL 55555</p>
+                </nav>
+            </div>
+            <!-- sign Up box-->
+            <div class="column is-6-desktop is-6-tablet">
+                <div class="card">
+                    <div class="card-image py-2 px-5">
+                        <h1 class="is-size-2 title has-text-primary">Please fill out this form</h1>
+                    </div>
+                    <div class="card-content">
+                        <input class="input mb-5 is-medium is-grey-lighter" type="text" placeholder="Name">
+                        <input class="input mb-5 is-medium is-grey-lighter" type="text" placeholder="Email">
+                        <input class="input mb-5 is-medium is-grey-lighter" type="text" placeholder="Phone">
+                        <input class="input mb-5 is-medium is-grey-lighter" type="text" placeholder="Enter Message">
+                        <button class="button is-primary has-shadow">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer has-background-primary-dark py-6  ">
+        <div class="has-text-centered has-text-white">
+            <h1 class="is-size-4">Travelville © 2020</h1>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
